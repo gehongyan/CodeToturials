@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SystemTextJsonConverter", "SystemTextJsonConverter", "{22986A60-8E78-4528-AA0F-66BF21E6F000}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Regex", "Regex", "{22F6D1F8-6BD6-4EBD-95EA-682EEF04158A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexTutorial", "src\Regex\src\RegexTutorial\RegexTutorial.csproj", "{315FA260-F068-4560-813F-F10E3AA248EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "src\Regex\src\Benchmarks\Benchmarks.csproj", "{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{315FA260-F068-4560-813F-F10E3AA248EB} = {22F6D1F8-6BD6-4EBD-95EA-682EEF04158A}
+		{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9} = {22F6D1F8-6BD6-4EBD-95EA-682EEF04158A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{315FA260-F068-4560-813F-F10E3AA248EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315FA260-F068-4560-813F-F10E3AA248EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315FA260-F068-4560-813F-F10E3AA248EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315FA260-F068-4560-813F-F10E3AA248EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
