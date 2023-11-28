@@ -10,6 +10,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "src\Regex\src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemTextJsonTests", "src\SystemTextJsonConverter\tests\SystemTextJsonTests\SystemTextJsonTests.csproj", "{0FD71E7C-EFCC-449F-9716-4E61D5D03FB4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cron", "Cron", "{667EE5AF-06F8-4240-8794-B359614441EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronScheduledService", "src\Cron\src\CronScheduledService\CronScheduledService.csproj", "{15022B12-FBB4-42F0-88BA-A60DFC19D7B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CronTests", "src\Cron\tests\CronTests\CronTests.csproj", "{DEAB9987-1634-4648-A9D9-00E0E5DD42FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,8 @@ Global
 		{315FA260-F068-4560-813F-F10E3AA248EB} = {22F6D1F8-6BD6-4EBD-95EA-682EEF04158A}
 		{9B691ADD-39D8-4C5B-845C-27BE54B0A0F9} = {22F6D1F8-6BD6-4EBD-95EA-682EEF04158A}
 		{0FD71E7C-EFCC-449F-9716-4E61D5D03FB4} = {22986A60-8E78-4528-AA0F-66BF21E6F000}
+		{15022B12-FBB4-42F0-88BA-A60DFC19D7B5} = {667EE5AF-06F8-4240-8794-B359614441EE}
+		{DEAB9987-1634-4648-A9D9-00E0E5DD42FE} = {667EE5AF-06F8-4240-8794-B359614441EE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{315FA260-F068-4560-813F-F10E3AA248EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +41,13 @@ Global
 		{0FD71E7C-EFCC-449F-9716-4E61D5D03FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FD71E7C-EFCC-449F-9716-4E61D5D03FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FD71E7C-EFCC-449F-9716-4E61D5D03FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15022B12-FBB4-42F0-88BA-A60DFC19D7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15022B12-FBB4-42F0-88BA-A60DFC19D7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15022B12-FBB4-42F0-88BA-A60DFC19D7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15022B12-FBB4-42F0-88BA-A60DFC19D7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAB9987-1634-4648-A9D9-00E0E5DD42FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAB9987-1634-4648-A9D9-00E0E5DD42FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAB9987-1634-4648-A9D9-00E0E5DD42FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAB9987-1634-4648-A9D9-00E0E5DD42FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
